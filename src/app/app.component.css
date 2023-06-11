@@ -1,0 +1,16 @@
+.port-style {
+  margin: 60px 30px;
+}
+.description-style {
+  background-color: #fff;
+  margin-top: 53px;
+  margin-left: -100px;
+  border-radius: 0px 8px 8px 0px;
+  height: 450px;
+  overflow: scroll;
+  scrollbar-color: #fff;
+  scrollbar-width: none !important;
+}
+.description-style::-webkit-scrollbar {
+    width: 0px;
+}

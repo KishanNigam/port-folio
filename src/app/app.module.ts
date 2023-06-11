@@ -3,10 +3,16 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { PortHeaderComponent } from './frontend/port-header/port-header.component';
+import { PortProfileComponent } from './frontend/port-profile/port-profile.component';
+import { PortProfileDescriptionComponent } from './frontend/port-profile-description/port-profile-description.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PortHeaderComponent,
+    PortProfileComponent,
+    PortProfileDescriptionComponent
   ],
   imports: [
     BrowserModule,
