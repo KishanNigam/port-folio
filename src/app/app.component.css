@@ -8,8 +8,8 @@
   border-radius: 0px 8px 8px 0px;
   height: 450px;
   overflow: scroll;
-  scrollbar-color: #fff;
-  scrollbar-width: none !important;
+  /* scrollbar-color: #fff;
+  scrollbar-width: none !important; */
 }
 .description-style::-webkit-scrollbar {
     width: 0px;

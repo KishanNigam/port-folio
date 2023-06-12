@@ -21,6 +21,10 @@
 .about-context {
     border-right: 1px solid #ccc9c9;
 }
+.about-context p {
+    font-weight: 400;
+    text-align: center;
+}
 .about-details {
     margin-left: -30px;
 }
@@ -39,4 +43,67 @@
     border-radius: 4px;
     color: #fff;
     font-weight: 400;
+}
+
+/* Services */
+.service-card-1 {
+    text-align: center;
+    padding: 40px;
+    border-right: 1px solid #ccc9c9;
+    margin-top: 30px;
+}
+.service-card-1 a {
+    color: #fff;
+    background-color: #78cc6d;
+    padding: 20px;
+    border-radius: 50px;
+}
+.service-card-1 h5 {
+    margin-top: 25px;
+    text-transform: capitalize;
+}
+.service-card-1 p {
+    font-size: small;
+}
+.service-card-2 {
+    text-align: center;
+    padding: 40px;
+    margin-top: 30px;
+}
+.service-card-2 a {
+    color: #fff;
+    background-color: #78cc6d;
+    padding: 20px;
+    border-radius: 50px;
+}
+.service-card-2 h5 {
+    margin-top: 25px;
+    text-transform: capitalize;
+}
+.service-card-2 p {
+    font-size: small;
+}
+.service-cards-row-2 {
+    padding: 30px;
+    margin: 30px;
+    border: 1px solid #ccc9c9;
+    margin-top: 30px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: -5px 3px 5px 0px #ccc9c9;
+}
+.service-card-col {
+    border-right: 1px solid #ccc9c9;
+}
+.service-card-col a{
+    color: #fff;
+    background-color: #78cc6d;
+    padding: 20px;
+    border-radius: 50px;
+}
+.service-card-col h5 {
+    margin-top: 20px;
+}
+.service-card-col-2 p {
+    font-size: small;text-align: left;
 }
