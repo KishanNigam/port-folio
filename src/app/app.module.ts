@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { PortHeaderComponent } from './frontend/port-header/port-header.component';
 import { PortProfileComponent } from './frontend/port-profile/port-profile.component';
 import { PortProfileDescriptionComponent } from './frontend/port-profile-description/port-profile-description.component';
+import { PortRusumeComponent } from './frontend/port-rusume/port-rusume.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PortHeaderComponent,
     PortProfileComponent,
-    PortProfileDescriptionComponent
+    PortProfileDescriptionComponent,
+    PortRusumeComponent
   ],
   imports: [
     BrowserModule,
