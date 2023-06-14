@@ -7,6 +7,7 @@ import { PortHeaderComponent } from './frontend/port-header/port-header.componen
 import { PortProfileComponent } from './frontend/port-profile/port-profile.component';
 import { PortProfileDescriptionComponent } from './frontend/port-profile-description/port-profile-description.component';
 import { PortRusumeComponent } from './frontend/port-rusume/port-rusume.component';
+import { PortWorksComponent } from './frontend/port-works/port-works.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { PortRusumeComponent } from './frontend/port-rusume/port-rusume.componen
     PortHeaderComponent,
     PortProfileComponent,
     PortProfileDescriptionComponent,
-    PortRusumeComponent
+    PortRusumeComponent,
+    PortWorksComponent
   ],
   imports: [
     BrowserModule,
